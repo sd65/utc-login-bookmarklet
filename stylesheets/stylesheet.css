@@ -152,6 +152,14 @@ a.button span {
   height: 23px;
 }
 
+input {
+  height: 33px;
+}
+
+
+#dragMe {
+  float: right;
+}
 
 #dragMe span {
   background: 12px 75% no-repeat;
