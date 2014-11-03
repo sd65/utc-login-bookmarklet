@@ -1,4 +1,4 @@
 utc-login-bookmarklet
 =====================
 
-A bookmarklet to logni to ent.utc.fr
+A bookmarklet to login to ent.utc.fr
