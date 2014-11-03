@@ -166,6 +166,7 @@ label {
  float: none;
   width: 340px;
   margin: auto;
+  opacity: 0.6;
 }
 
 #dragMe span {
@@ -258,6 +259,7 @@ form {
 
 h1 {
   font-size: 32px;
+  font-weight: bold;
 } 
 
 h2 {

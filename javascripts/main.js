@@ -2,6 +2,7 @@ $(document).ready(function () {
 
 	function updateDragMe() {
 		$('#dragMe').attr('href', $('#code').text());
+		if ($('input[name=username]').text() != "" && $('input[name=password]').text() != "" ) $('#dragMe').css("opacity", 1);
 	}
 
 	$('input[name=username]').keyup(function() { 
