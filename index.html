@@ -48,8 +48,8 @@
 javascript: if (window.location.hostname != "cas.utc.fr") {
     window.location.href = "https://cas.utc.fr/cas/login?service=https://webapplis.utc.fr/ent/index.jsf";
 } else {
-    document.getElementById("username").value = </code> <code>username</code><code>;
-    document.getElementById("password").value = </code> <code>password</code><code>;
+    document.getElementById("username").value = </code> <code id="usernameField">username</code><code>;
+    document.getElementById("password").value = </code> <code id="passwordField">password</code><code>;
     document.forms['credentials'].submit();
 }
             </code>
