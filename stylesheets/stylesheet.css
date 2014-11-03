@@ -164,9 +164,16 @@ label {
 
 #dragMe {
  float: none;
-  width: 340px;
+  width: 140px;
   margin: auto;
   opacity: 0.6;
+}
+
+#helper {
+    text-align: center;
+    margin-top: 25px;
+    display: block;
+    margin-bottom: 5px;
 }
 
 #dragMe span {
