@@ -154,6 +154,8 @@ a.button span {
 
 input {
   height: 43px;
+  width: 100%;
+  font-size: 1.7em;
 }
 
 label {
@@ -161,7 +163,9 @@ label {
 }
 
 #dragMe {
-  float: right;
+ float: none;
+  width: 340px;
+  margin: auto;
 }
 
 #dragMe span {
