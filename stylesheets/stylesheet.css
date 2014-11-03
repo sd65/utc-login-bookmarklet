@@ -156,7 +156,8 @@ a.button span {
   background: transparent url(../images/zip-icon.png) 12px 50% no-repeat;
 }
 #dragMe span {
-  background: transparent url(../images/drag.png) 12px 50% no-repeat;
+  background: 12px 50% no-repeat;
+  background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAQAAAC1p96yAAAABGdBTUEAAYagMeiWXwAAAAJiS0dEAACqjSMyAAAACXBIWXMAAASwAAAEsACQKxcwAAAAB3RJTUUH3gsDDiwl+S7b4wAAAMxJREFUOMvt1b8OwVAUx/FvWo/RBzA2MXQweyArg0SUxMATaMJiM9h4AKOBxFIRCUvF0iISKTWQtKn+u+b+7nLuuedz73jBj8YBL3Ud0HwiBbiKQnoU1GguZ8ChOSkjiUnOc57znH/iccX7nxtUMJIGCglnC+pY7ChSFn/dQccCTrSwxfmQ2beaMxDla3o8v/WLPksRfqfNPrA/onPLzsdMQp0po6x8Q4dHqOfSZZXMXQBsGmwjLt3TxAnM/aSEyZlq7F8nU+OCSclvvQEn2j+cGnVitgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxNC0xMS0wM1QxNTo0MzoxMSswMTowMLQ6NYgAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTQtMDEtMDlUMTg6Mzc6NDYrMDE6MDC+COkzAAAAJnRFWHRzdmc6YmFzZS11cmkAZmlsZTovLy90bXAvdG1wY01DRzZxLnN2ZzvhcjoAAAAASUVORK5CYII=);
 }
 #view-on-github span {
   background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
