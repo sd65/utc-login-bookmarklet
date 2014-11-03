@@ -38,17 +38,21 @@
           <label for='password'>Password</label>
           <input type='text' name='password'/>
 
-          <code>
-            javascript: if (window.location.hostname != "cas.utc.fr") {
-                window.location.href = "https://cas.utc.fr/cas/login?service=https://webapplis.utc.fr/ent/index.jsf";
-            } else {
-                username = "";
-                password = "";
-                document.getElementById("username").value = username;
-                document.getElementById("password").value = password;
-                document.forms['credentials'].submit();
-            }
-          <code>
+          <pre>
+
+            <code>
+javascript: if (window.location.hostname != "cas.utc.fr") {
+    window.location.href = "https://cas.utc.fr/cas/login?service=https://webapplis.utc.fr/ent/index.jsf";
+} else {
+    username = "";
+    password = "";
+    document.getElementById("username").value = username;
+    document.getElementById("password").value = password;
+    document.forms['credentials'].submit();
+}
+            <code>
+              
+          </pre>
 
         </section>
 
