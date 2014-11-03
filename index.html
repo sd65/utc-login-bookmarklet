@@ -10,6 +10,8 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="javascripts/main.js"></script>
     <title>UTC-login-bookmarklet by sd65</title>
   </head>
 
@@ -31,7 +33,7 @@
         <hr>
 
         <section id="main_content">
-          <h1>Enter your credentials here</h1>
+          <h1 style="margin-bottom: 10px">Enter your credentials here</h1>
 
           <label for='username'>Username</label>
           <input type='text' name='username'/>
@@ -39,20 +41,18 @@
           <input type='text' name='password'/>
 
           <hr/>
-          
+
           <pre>
 
             <code>
 javascript: if (window.location.hostname != "cas.utc.fr") {
     window.location.href = "https://cas.utc.fr/cas/login?service=https://webapplis.utc.fr/ent/index.jsf";
 } else {
-    username = "";
-    password = "";
-    document.getElementById("username").value = username;
-    document.getElementById("password").value = password;
+    document.getElementById("username").value = </code> <code>username</code><code>;
+    document.getElementById("password").value = </code> <code>password</code><code>;
     document.forms['credentials'].submit();
 }
-            <code>
+            </code>
 
           </pre>
 
