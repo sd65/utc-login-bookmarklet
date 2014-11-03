@@ -28,6 +28,7 @@
           <a href="https://github.com/sd65/utc-login-bookmarklet/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
           <a href="https://github.com/sd65/utc-login-bookmarklet/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
           <a href="https://github.com/sd65/utc-login-bookmarklet" id="view-on-github" class="button"><span>View on GitHub</span></a>
+          <a href="" id="dragMe" class="button"><span>Drag Me</span></a>
         </section>
 
         <hr>
@@ -42,10 +43,11 @@
 
           <hr/>
 
-          <pre>
+          <pre id='code'>
 
             <code>
-javascript: if (window.location.hostname != "cas.utc.fr") {
+javascript: 
+if (window.location.hostname != "cas.utc.fr") {
     window.location.href = "https://cas.utc.fr/cas/login?service=https://webapplis.utc.fr/ent/index.jsf";
 } else {
     document.getElementById("username").value = '</code><code id="usernameField">username</code><code>' ;
