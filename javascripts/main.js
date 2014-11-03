@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
 	function updateDragMe() {
-		$('#dragMe').attr('href', encodeURIComponent($('#code').text()));
+		$('#dragMe').attr('href', $('#code').text().serialize());
 	}
 
 	$('input[name=username]').keyup(function() { 
