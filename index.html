@@ -31,9 +31,25 @@
         <hr>
 
         <section id="main_content">
-          <h1><a name="utc-login-bookmarklet" class="anchor" href="#utc-login-bookmarklet"><span class="octicon octicon-link"></span></a>utc-login-bookmarklet</h1>
+          <h1>Enter your credentials here</h1>
 
-        <p>A bookmarklet to login to ent.utc.fr</p>
+          <label for='username'>Username</label>
+          <input type='text' name='username'/>
+          <label for='password'>Password</label>
+          <input type='text' name='password'/>
+
+          <code>
+            javascript: if (window.location.hostname != "cas.utc.fr") {
+                window.location.href = "https://cas.utc.fr/cas/login?service=https://webapplis.utc.fr/ent/index.jsf";
+            } else {
+                username = "";
+                password = "";
+                document.getElementById("username").value = username;
+                document.getElementById("password").value = password;
+                document.forms['credentials'].submit();
+            }
+          <code>
+
         </section>
 
         <footer>
