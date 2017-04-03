@@ -3,5 +3,5 @@ utc-login-bookmarklet
 
 A bookmarklet to login to ent.utc.fr
 
-# All info here :
+# Website :
 http://sd65.github.io/utc-login-bookmarklet/
